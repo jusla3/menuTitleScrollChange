@@ -18,7 +18,14 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
 	line-height: 1;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
+	color:#de3d27;
+	clear: both;
+	font-weight: normal;
+	margin-left: 1.5in;
+	font-size:large;
+}
+h2, h3, h4, h5, h6 {
 	clear: both;
 	font-weight: normal;
 }
@@ -45,6 +52,52 @@ a img {
 }
 
 
+
+
+
+body{
+	font-family:'Roboto', sans-serif;
+	color:#fff;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+
+}
+
+a{
+	color: #3498db;
+}
+a:focus{
+	outline:none;
+	outline-offset:inherit;
+}
+.section-style-a{
+
+	background-color:#818a91;
+	background-attachment:inherit;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	background-size:cover;
+
+}
+.section-style-b{
+	color:#000000;
+	background-color:#fdf7f7;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	background-size:cover;
+}
+.section-style-c{
+	background-color: #000000;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	background-size:cover;
+}
 
 
 
@@ -89,16 +142,16 @@ body {
     color:$dark-grey;
     font-family: $font-primary;
     font-weight:300;
-    font-size:16px;
+    font-size:30px;
     line-height:1.8;
 }
 
 
 /* Headings */
-h1,h2,h3,h4,h5,h6 {
+/*h1,h2,h3,h4,h5,h6 {
 	line-height:1;
 	font-weight: 300;
-}
+}*/
 a {
     text-decoration:none;
     color:$color;
