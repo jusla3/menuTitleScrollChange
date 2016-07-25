@@ -148,7 +148,7 @@ header {
     line-height: 150px;
     float: left;
     font-family: "Oswald", sans-serif;
-    font-size: 60px;
+    font-size: 60px;  					/*TODO: original header Logo font size (Before) Transition */
     color: white;
     font-weight: 400;
     -webkit-transition: all 0.3s;
@@ -178,7 +178,7 @@ header {
       width: 150px;
       height: 75px;
       line-height: 75px;
-      font-size: 30px; }
+      font-size: 30px; }    		/* TODO:Header Size (after) ther transition */
     header.smaller nav a {
       line-height: 75px; }
 
@@ -217,11 +217,11 @@ header {
   header.smaller {
     height: 75px; }
     header.smaller h1#logo {
-      height: 60px;
-      line-height: 60px;
+      height: 40px;
+      line-height: 40px;
       font-size: 30px; }
     header.smaller nav {
-      height: 35px; }
+      height: 25px; }
       header.smaller nav a {
         line-height: 35px; } }
 @media all and (max-width: 600px) {
