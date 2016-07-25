@@ -217,8 +217,8 @@ header {
   header.smaller {
     height: 75px; }
     header.smaller h1#logo {
-      height: 40px;
-      line-height: 40px;
+      height: 60px;
+      line-height: 60px;
       font-size: 30px; }
     header.smaller nav {
       height: 35px; }
