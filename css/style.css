@@ -18,10 +18,42 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
   line-height: 1; }
 
-h1, h2, h3, h4, h5, h6 {
-  clear: both;
-  font-weight: normal; }
+h1 {
+	color:#de3d27;
+	clear: both;
+	font-weight: normal;
+	/*margin-left: 1.5in;*/
+	font-size:30px;
+}
+h2, h3,  h5, h6 {
+	align:left;
+	margin-left: 31.5pt;
+	clear: both;
+	font-weight: normal;
+}
+h4 {
+	clear: both;
+	font-weight: normal;
+	align:left;
+	margin-left: 31.5pt;
+	font-size:13.0pt;
 
+
+
+}
+p{
+	align:left;
+	margin-top:0in;
+	margin-right:-67.5pt;
+	margin-bottom:0in;
+	margin-left:31.5pt;
+	text-align:justify;
+	text-indent:0in;
+	line-height:15.0pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+}
 ol, ul {
   list-style: none; }
 
@@ -101,6 +133,55 @@ section {
   section.color {
     background-color: #3cb5f9;
     color: white; }
+/********************************* [Section] *******************************************/
+.section-style-a{
+
+	background-color:#818a91;
+	background-attachment:inherit;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	background-size:cover;
+}
+.section-style-b{
+	color:#000000;
+	background-color:#fdf7f7;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	background-size:cover;
+}
+.section-style-c{
+	background-color: #000000;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	background-size:cover;
+}
+
+.section-style-d{
+	background-color: #fff;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	background-size:cover;
+}
+
+/************************************ [Section] **************************************/
+
+
+
+
+
+
+
+
+
+
 
 /* =Info Bar
 -------------------------------------------------------------- */
